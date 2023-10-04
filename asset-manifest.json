@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/spd_bhanu_edygrad/static/css/main.b09b507f.css",
-    "main.js": "/spd_bhanu_edygrad/static/js/main.f60abf4f.js",
+    "main.js": "/spd_bhanu_edygrad/static/js/main.8c0b4d3d.js",
     "static/media/background11.jpg": "/spd_bhanu_edygrad/static/media/background11.0ae4f4613b496af2037e.jpg",
     "static/media/background9.jpg": "/spd_bhanu_edygrad/static/media/background9.6957a2e47826b60b45b5.jpg",
     "static/media/background10.jpg": "/spd_bhanu_edygrad/static/media/background10.5f86b8814e69fa1a3c2b.jpg",
@@ -32,10 +32,10 @@
     "static/media/computing.png": "/spd_bhanu_edygrad/static/media/computing.46ee614e3d7c5cd3565c.png",
     "index.html": "/spd_bhanu_edygrad/index.html",
     "main.b09b507f.css.map": "/spd_bhanu_edygrad/static/css/main.b09b507f.css.map",
-    "main.f60abf4f.js.map": "/spd_bhanu_edygrad/static/js/main.f60abf4f.js.map"
+    "main.8c0b4d3d.js.map": "/spd_bhanu_edygrad/static/js/main.8c0b4d3d.js.map"
   },
   "entrypoints": [
     "static/css/main.b09b507f.css",
-    "static/js/main.f60abf4f.js"
+    "static/js/main.8c0b4d3d.js"
   ]
 }
