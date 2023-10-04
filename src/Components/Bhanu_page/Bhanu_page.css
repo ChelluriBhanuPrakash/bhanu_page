@@ -1,0 +1,640 @@
+#main {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: #262626;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Add a class to change background images */
+  .software-bg {
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url('../../assets/background1.jpg');
+  }
+  
+  .hardware-bg {
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)),url('../../assets/background2.jpg');
+  }
+  .bpo-bg{
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url('../../assets/background3.jpg');
+  }
+  .aiml-bg{
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url('../../assets/background4.jpg');
+  }
+  .datascience-bg{
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url('../../assets/background5.jpg');
+  }
+  .blockchain-bg{
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url('../../assets/background6.jpg');
+  }
+  .gaming-bg{
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url('../../assets/background7.png');
+  }
+  .computing-bg{
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url('../../assets/background8.jpg');
+  }
+  .reality-bg{
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url('../../assets/background9.jpg');
+  }
+  .security-bg{
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url('../../assets/background10.jpg');
+  }
+  .robotics-bg{
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url('../../assets/background11.jpg');
+  }
+  .iot-bg{
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('../../assets//background12.png');
+  }
+  .infra-bg{
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url('../../assets/background13.jpg');
+  }
+  .tech-bg{
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('../../assets/background14.jpg');
+  }
+
+#main .sides {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+/* side-1 part */
+.side1 {
+    flex: 1;
+}
+
+.sides center h1 {
+    font-size: 50px;
+    opacity: 0;
+    animation: rotate .8s ease-in-out forwards;
+    animation-delay: .2s;
+}
+@keyframes rotate {
+    0% {
+        opacity: 0;
+        transform: rotate(380deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+}
+.numbers p {
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.grid-container{
+    margin: 25px 0px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.numbers .grid-item {
+    text-align: center;
+    margin: 10px;
+    /* background: #9e9e9e; */
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+    border-radius: 15px;
+    opacity: 0;
+    animation: up 1s ease-in-out forwards;
+}
+/* numbers animation  */
+
+.numbers .num1 {
+    opacity: 0;
+    animation: up .8s ease-in-out forwards;
+    animation-delay: .4s;
+}
+
+.numbers .num2 {
+    opacity: 0;
+    animation: up .8s ease-in-out forwards;
+    animation-delay: .6s;
+}
+
+.numbers .num3 {
+    opacity: 0;
+    animation: up .8s ease-in-out forwards;
+    animation-delay: .8s;
+}
+
+.numbers .num4 {
+    opacity: 0;
+    animation: up .8s ease-in-out forwards;
+    animation-delay: 1s;
+}
+
+.numbers .num5 {
+    opacity: 0;
+    animation: up .8s ease-in-out forwards;
+    animation-delay: 1.8s;
+}
+
+.numbers .num6 {
+    opacity: 0;
+    animation: up .8s ease-in-out forwards;
+    animation-delay: 1.6s;
+}
+
+.numbers .num7 {
+    opacity: 0;
+    animation: up .8s ease-in-out forwards;
+    animation-delay: 1.4s;
+}
+
+.numbers .num8 {
+    opacity: 0;
+    animation: up .8s ease-in-out forwards;
+    animation-delay: 1.2s;
+}
+
+.numbers .num9 {
+    opacity: 0;
+    animation: up .8s ease-in-out forwards;
+    animation-delay: 2s;
+}
+
+.numbers .num10 {
+    opacity: 0;
+    animation: up .8s ease-in-out forwards;
+    animation-delay: 2.2s;
+}
+
+.numbers .num11 {
+    opacity: 0;
+    animation: up .8s ease-in-out forwards;
+    animation-delay: 2.4s;
+}
+
+.numbers .num12 {
+    opacity: 0;
+    animation: up .8s ease-in-out forwards;
+    animation-delay: 2.6s;
+}
+
+.numbers .num13 {
+    opacity: 0;
+    animation: up .8s ease-in-out forwards;
+    animation-delay: 3s;
+}
+
+.numbers .num14 {
+    opacity: 0;
+    animation: up .8s ease-in-out forwards;
+    animation-delay: 2.8s;
+}
+
+@keyframes up {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.grid-item h1 {
+    font-size: 45px;
+}
+
+@keyframes up {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+/* side-2 part */
+
+.sides .side2 {
+    flex: 1;
+    
+}
+
+
+.circle {
+    margin-left: 85px;
+    margin-top: 25px;
+    width: 500px;
+    height: 500px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+
+.circle .icon {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+}
+
+
+
+.software {
+    top: -45px;
+    left: 42%;
+    opacity: 1;
+    animation: load 1s ease-in-out;
+    animation-delay: .5s;
+}
+
+
+.hardware {
+    top: -8px;
+    left: 63%;
+    opacity: 1;
+    animation: load 1s ease-in-out;
+    animation-delay: .8s;
+}
+
+.bpo {
+    top: 58px;
+    left: 80%;
+    opacity: 1;
+    animation: load 1s ease-in-out;
+    animation-delay: 1s;
+}
+
+.aiml {
+    top: 160px;
+    left: 90%;
+    opacity: 1;
+    animation: load 1s ease-in-out;
+    animation-delay: 1.2s;
+}
+
+.datascience {
+    top: 270px;
+    left: 88%;
+    opacity: 1;
+    animation: load 1s ease-in-out;
+    animation-delay: 1.4s;
+}
+
+.blockchain {
+    top: 370px;
+    left: 78%;
+    opacity: 1;
+    animation: load 1s ease-in-out;
+    animation-delay: 1.6s;
+}
+
+.gaming {
+    top: 430px;
+    left: 60%;
+    opacity: 1;
+    animation: load 1s ease-in-out;
+    animation-delay: 1.8s;
+}
+
+.computing {
+    top: 450px;
+    left: 38%;
+    opacity: 1;
+    animation: load 1s ease-in-out;
+    animation-delay: 2s;
+}
+
+.reality {
+    top: 420px;
+    left: 15%;
+    opacity: 1;
+    animation: load 1s ease-in-out;
+    animation-delay: 2.2s;
+}
+
+.security {
+    top: 340px;
+    left: -1%;
+    opacity: 1;
+    animation: load 1s ease-in-out;
+    animation-delay: 2.4s;
+}
+
+.robotics {
+    top: 240px;
+    left: -9%;
+    opacity: 1;
+    animation: load 1s ease-in-out;
+    animation-delay: 2.6s;
+}
+
+.iot {
+    top: 130px;
+    left: -8%;
+    opacity: 1;
+    animation: load 1s ease-in-out;
+    animation-delay: 2.8s;
+}
+
+.infra {
+    top: 30px;
+    left: 3%;
+    opacity: 1;
+    animation: load 1s ease-in-out;
+    animation-delay: 3s;
+}
+
+.tech {
+    top: -24px;
+    left: 21%;
+    opacity: 1;
+    animation: load 1s ease-in-out;
+    animation-delay: 3.2s;
+}
+
+/* animation of images */
+@keyframes load {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+/* click me button */
+.btn {
+    width: 100px;
+    height: 100px;
+    background-color: #44546a;
+    color: #fff;
+    border: 8px solid #a7a99f;
+    border-radius: 50%;
+}
+
+/* classes created from script */
+.number {
+    transition: background 0.3s ease-in-out;
+}
+
+.image-hovered {
+    transform: scale(1.3);
+}
+
+
+.number-hovered {
+    background: #FF046F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* media */
+
+@media (max-width:1440px) {
+    .sides .side1 h1 {
+        font-size: 35px;
+    }
+    .grid-item{
+        padding: 5px 10px;
+    }
+
+
+    /* side-2  */
+    .side2{
+        margin: 55px 0 50px 80px;
+    }
+    .circle {
+        width: 350px;
+        height: 350px;
+        margin: 0 30px;
+    }
+
+    .circle .icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .software {
+        top: -27px;
+    }
+    .hardware{
+        top: -10px;
+        left: 225px;
+    }
+
+    .bpo {
+        top: 35px;
+        left: 285px;
+    }
+
+    .aiml {
+        top: 100px;
+    }
+
+    .datascience {
+        top: 175px;
+        left: 315px;
+    }
+
+    .blockchain {
+        top: 245px;
+        left: 290px;
+    }
+
+    .gaming {
+        top: 295px;
+        left: 235px;
+    }
+
+    .computing {
+        top: 315px;
+        left: 158px;
+    }
+
+    .reality {
+        top: 300px;
+        left: 80px;
+    }
+
+    .security {
+        top: 260px;
+        left: 15px;
+    }
+
+    .robotics {
+        top: 190px;
+        left: -22px;
+    }
+
+    .iot {
+        top: 110px;
+        left: -25px;
+    }
+
+    .infra {
+        top: 40px;
+        left: 0;
+    }
+
+    .tech {
+        top: -8px;
+        left: 60px;
+    }
+
+    .btn {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width:1024px) {
+    .sides .side1 h1 {
+        font-size: 30px;
+    }
+    .side2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn {
+        width: 100px;
+        height: 100px;
+    }
+
+
+
+
+
+    .circle {
+        width: 500px;
+        height: 500px;
+    }
+    
+    
+    .circle .icon {
+        width: 90px;
+        height: 90px;
+        position: absolute;
+    }
+    
+    
+    
+    .software {
+        top: -45px;
+        left: 42%;
+    }
+    
+    
+    .hardware {
+        top: -8px;
+        left: 63%;
+    }
+    
+    .bpo {
+        top: 58px;
+        left: 80%;
+    }
+    
+    .aiml {
+        top: 160px;
+        left: 90%;
+    }
+    
+    .datascience {
+        top: 270px;
+        left: 88%;
+    }
+    
+    .blockchain {
+        top: 370px;
+        left: 78%;
+    }
+    
+    .gaming {
+        top: 430px;
+        left: 60%;
+    }
+    
+    .computing {
+        top: 450px;
+        left: 38%;
+    }
+    
+    .reality {
+        top: 420px;
+        left: 15%;
+    }
+    
+    .security {
+        top: 340px;
+        left: -1%;
+    }
+    
+    .robotics {
+        top: 240px;
+        left: -9%;
+    }
+    
+    .iot {
+        top: 130px;
+        left: -8%;
+    }
+    
+    .infra {
+        top: 30px;
+        left: 3%;
+    }
+    
+    .tech {
+        top: -24px;
+        left: 21%;
+        
+    }
+}
+
+@media (max-width:768px) {
+    .side2{
+        margin-left: 0;
+    }
+}
