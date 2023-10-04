@@ -25,7 +25,7 @@ const Navbar = () => {
                     )}
                 </div>
                 <ul className={`menu-toggle ${menuOpen ? 'open' : ''}`}>
-                    <li><Link to='/'>Home</Link></li>
+                    <li><Link to='/home'>Home</Link></li>
                     <li><Link to='/about' >About</Link></li>
                     <li><Link to='/teacher' >Teacher</Link></li>
                     <li><Link to='/course' >Course</Link></li>
